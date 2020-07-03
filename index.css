@@ -1,0 +1,142 @@
+.nav {
+  padding-right: 6rem;
+  text-align: right;
+}
+
+.nav__link {
+  display: inline;
+  font-size: 3rem;
+  padding-left: 1.5rem;
+}
+
+.nav__link a {
+  text-decoration: none;
+  color: #d6fff5;
+}
+
+.nav__link--active {
+  color: #001534;
+}
+
+.nav__link a:hover {
+  color: #fff;
+}
+.bg-display {
+  background: #041d16;
+}
+.landing-grid {
+  background: #d6b193; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: relative;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  max-width: 100;
+}
+
+.avatar-img {
+  height: 350px;
+  padding-top: 5em;
+}
+body {
+  max-width: 100%;
+}
+.cards {
+  margin-top: 5rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.cards:hover .card__reveal--left {
+  transform: translateX(-100%);
+}
+
+.cards:hover .card__reveal--up {
+  transform: translateY(-100%);
+}
+
+.cards:hover .card__reveal--right {
+  transform: translateX(100%);
+}
+
+.cards:hover .card__reveal--down {
+  transform: translateY(100%);
+}
+
+.cards h2 {
+  padding: 7rem;
+  margin: 0;
+}
+
+.card__content {
+  display: block;
+  background: #fff;
+  color: #000;
+}
+
+.card__reveal {
+  position: absolute;
+  background: #000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+
+  border-radius: 10px;
+  margin: auto;
+}
+
+.banner-text h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 5px;
+  margin: auto;
+}
